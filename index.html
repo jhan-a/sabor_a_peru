@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sabor a Perú</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="icon" type="image/png" href="../imagenes/banner/logo.png">
+</head>
+<body>
+
+    <header>
+        <a class="logo" href="../imagenes/banner/logo.png">
+            <img src="../imagenes/banner/logo.png" alt="Logo" />
+        </a>
+        <nav class="menu">
+            <a href="menu.html">Menú</a>
+            <a href="terminos_condiciones.html">Terminos y Condiciones</a>
+            <a href="registro.html">Registrarse</a>
+        </nav>
+    </header>
+
+    <section class="promo">
+        <img class="imagen" src="../imagenes/banner/banner_de_ceviche.png" alt="Promoción" />
+    </section>
+
+    <section class="categorias">
+        <button onclick="mostrarCategoria('comidas')">Comidas</button>
+        <button onclick="mostrarCategoria('postres')">Postres</button>
+        <button onclick="mostrarCategoria('bebidas')">Bebidas</button>
+    </section>
+
+    <section id="comidas" class="galeria">
+        <h2>Recomendaciones</h2>
+        <div class="imagenes">
+            <div class="img-box">
+                <img src="../imagenes/comida/aji_de_gallina.jpeg" alt="" class="producto-img">
+                <h4>Aji de Gallina</h4>
+                <p>S/15.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/comida/causa.jpeg" alt="" class="producto-img">
+                <h4>Causa</h4>
+                <p>S/12.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/comida/ceviche.jpeg" alt="" class="producto-img">
+                <h4>Ceviche</h4>
+                <p>S/18.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/comida/Cuy-chactado.png" alt="" class="producto-img">
+                <h4>Cuy chactado</h4>
+                <p>S/14.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/comida/lomo_saltado.jpeg" alt="" class="producto-img">
+                <h4>Lomo Saltado</h4>
+                <p>S/13.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/comida/pescado_frito .jpeg" alt="" class="producto-img">
+                <h4>Pescado Frito</h4>
+                <p>S/25.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+        </div>
+        <div class="ver-mas">
+            <a href="menu.html">Ver más</a>
+        </div>
+    </section>
+
+    <section id="postres" class="galeria oculto">
+        <h2>Recomendaciones</h2>
+        <div class="imagenes">
+            <div class="img-box">
+                <img src="../imagenes/postres/alfajor.jpeg" alt="" class="producto-img">
+                <h4>Alfajores</h4>
+                <p>S/7.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/postres/Arroz-con-leche.webp" alt="" class="producto-img">
+                <h4>Arroz con Leche</h4>
+                <p>S/9.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/postres/picarones.jpeg" alt="" class="producto-img">
+                <h4>Picarones</h4>
+                <p>S/7.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/postres/conbinado.jpeg" alt="" class="producto-img">
+                <h4>Mazamorra Morada con Arroz con Leche</h4>
+                <p>S/10.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/postres/turron.jpeg" alt="" class="producto-img">
+                <h4>Turron</h4>
+                <p>S/6.00</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/postres/Suspiro-limeño.webp" alt="" class="producto-img">
+                <h4>Suspiro Limeño</h4>
+                <p>S/7.50</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+        </div>
+        <div class="ver-mas">
+            <a href="menu.html">Ver más</a>
+        </div>
+    </section>
+
+    <section id="bebidas" class="galeria oculto">
+        <h2>Recomendaciones</h2>
+        <div class="imagenes">
+           <div class="img-box">
+                <img src="../imagenes/bebidas/chicha_de_jora .jpeg" alt="" class="producto-img">
+                <h4>Chicha de Jora</h4>
+                <p>S/6.50</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/bebidas/chicha_morada .jpeg" alt="" class="producto-img">
+                <h4>Chicha Morada</h4>
+                <p>S/5.50</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/bebidas/jugo_de_guayaba.jpeg" alt="" class="producto-img">
+                <h4>Jugo de guayaba</h4>
+                <p>S/4.50</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/bebidas/limonada_a_la_norteña.jpeg" alt="" class="producto-img">
+                <h4>Limonada Norteña</h4>
+                <p>$8.99</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/bebidas/jugo_de_guayaba.jpeg" alt="" class="producto-img">
+                <h4>Jugo de Maracuya</h4>
+                <p>S/5.50</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+            <div class="img-box">
+                <img src="../imagenes/bebidas/Jugo_de_piña.png" alt="" class="producto-img">
+                <h4>Jugo de Piña</h4>
+                <p>S/6.50</p>
+                <button><a href="compra.html">Comprar</a></button>
+            </div>
+        </div>
+        <div class="ver-mas">
+            <a href="menu.html">Ver más</a>
+        </div>
+    </section>
+
+    <section class="video-texto">
+        <div class="video-contenedor">
+            <video src="../videos/CEVICHE-CLASICO.mp4" controls></video>
+        </div>
+        <div class="texto-contenedor">
+            <h2>Conoce un poco de nuestro trabajo</h2>
+            <p>En Delicias Caseras, nos apasiona preparar comida con ingredientes frescos y un toque casero que te hará sentir en casa. Mira este video para descubrir cómo elaboramos cada platillo con amor y dedicación.</p>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>Contáctanos</h2>
+        <p><strong>Dirección:</strong> Calle Sabrosa 123, Ciudad Sabor, País</p>
+        <p><strong>Teléfono:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong> contacto@saboraperu.com</p>
+    </section>
+
+    <div class="audio-container play" onclick="toggleAudio()"></div>
+
+    <audio id="miAudio" src="../musica/musica.mp3" autoplay></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+body {
+    background-color: #3d66a5;
+}
+.contenedor {
+    background-color: rgb(206, 215, 219);
+    width: 600px;
+    margin: 100px auto;
+    padding: 100px;
+    text-align: center;
+}
+.contenedor input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #000000;
+}
+.boton-entrar {
+    background-color: #0f3581;
+    color: white;
+    padding: 10px;
+    width: 55%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+    
+
